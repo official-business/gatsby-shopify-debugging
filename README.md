@@ -12,13 +12,12 @@ This is to help debug any issues with sourcing data from Shopify using the plugi
     Create 2 new files `.env.development` and `.env.production`, with the following:
 
     ```
-    # .env.development + .env.production
     GATSBY_SHOPIFY_STORE_URL=your-store.myshopify.com
-		SHOPIFY_SHOP_PASSWORD=shpat_xxxxxxxxxxxxxxxxxxxxxxx
+    SHOPIFY_SHOP_PASSWORD=shpat_xxxxxxxxxxxxxxxxxxxxxxx
     ```
-		Use the store url and password in the app that has been setup.
-
-		More about the gatsby-source-shopify plugin here: [Gatsby Docs](https://www.gatsbyjs.com/plugins/gatsby-source-shopify/)
+    Use the store url and password in the app that has been setup.
+    
+    More about the gatsby-source-shopify plugin here: [Gatsby Docs](https://www.gatsbyjs.com/plugins/gatsby-source-shopify/)
 
 2.  **Start developing.**
 
@@ -26,7 +25,7 @@ This is to help debug any issues with sourcing data from Shopify using the plugi
 
     ```shell
     cd gatsby-shopify-debugging/
-		npm install
+    npm install
     gatsby develop
     ```
 
