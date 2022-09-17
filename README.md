@@ -11,7 +11,7 @@ This is to help debug any issues with sourcing data from Shopify using the plugi
 
     Create 2 new files `.env.development` and `.env.production`, with the following:
 
-    ```shell
+    ```
     # .env.development + .env.production
     GATSBY_SHOPIFY_STORE_URL=your-store.myshopify.com
 		SHOPIFY_SHOP_PASSWORD=shpat_xxxxxxxxxxxxxxxxxxxxxxx
